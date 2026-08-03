@@ -95,6 +95,21 @@ go build -o dist/datasetlint .
 - `-json` is useful for CI checks or automated dataset pipelines.
 - Maintainer release steps live in `PUBLISHING.md`.
 
+## Claude Code skill
+
+This repo also ships a Claude Code skill. Install standalone:
+
+```bash
+npx skills add itamaker/datasetlint-skill
+```
+
+Or via the [`itamaker/skills`](https://github.com/itamaker/skills) plugin marketplace:
+
+```text
+/plugin marketplace add itamaker/skills
+/plugin install datasetlint-skill@itamaker-skills
+```
+
 ## Contributors ✨
 
 | [![Zhaoyang Jia][avatar-zhaoyang]][author-zhaoyang] |

@@ -1,0 +1,5 @@
+{
+  "name": "datasetlint-skill",
+  "description": "Audit JSONL train/eval datasets for duplicates, leakage, and label conflicts",
+  "version": "1.0.0"
+}

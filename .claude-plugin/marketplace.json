@@ -1,0 +1,21 @@
+{
+  "name": "itamaker-datasetlint-skill",
+  "owner": {
+    "name": "Jonny"
+  },
+  "metadata": {
+    "description": "Reusable datasetlint skill from itamaker",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "itamaker-datasetlint-skill",
+      "description": "Audit JSONL train/eval datasets for duplicates, leakage, and label conflicts with the datasetlint CLI",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/datasetlint"
+      ]
+    }
+  ]
+}

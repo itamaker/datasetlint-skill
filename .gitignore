@@ -1,5 +1,5 @@
 dist/
-datasetlint
+/datasetlint
 *.out
 *.test
 .DS_Store
