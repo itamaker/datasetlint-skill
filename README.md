@@ -54,6 +54,16 @@ You can still use the direct command form:
 datasetlint scan -train examples/train.jsonl -eval examples/eval.jsonl
 ```
 
+### Help And Version
+
+```bash
+datasetlint --help          # usage; also -h, -help, help
+datasetlint scan --help     # scan flags; also -h, help
+datasetlint --version       # prints "datasetlint <version>"; also version
+```
+
+Help and version go to stdout and exit `0`. An unknown subcommand prints usage to stderr and exits `2`. Scripts and coding agents should call `scan` and never run `datasetlint` with no arguments, which opens the interactive UI.
+
 ## Requirements
 
 - Go `1.22+`
